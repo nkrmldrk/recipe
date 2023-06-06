@@ -1,16 +1,20 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 function Header() {
     return (
-        <nav className="oranges">
+        <nav className="#4db6ac teal lighten-2">
             <div className="container">
                 <div className="nav-wrapper">
-                    <a href="!#" className="brand-logo">
+                    <Link to="./" className="brand-logo">
                         React Recipe
-                    </a>
+                    </Link>
                     <ul id="nav-mobile" className="right hide-on-med-and-down">
                         <li>
-                            <a href="https://github.com/nkrmldrk">Repository</a>
+                            <Link to="/contact">Contact</Link>
+                        </li>
+                        <li>
+                            <Link to="/about">About</Link>
                         </li>
                     </ul>
                 </div>
@@ -19,4 +23,4 @@ function Header() {
     );
 }
 
-export default Header
+export {Header}
