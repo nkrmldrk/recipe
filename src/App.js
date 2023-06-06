@@ -22,7 +22,7 @@ function App() {
   }
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/recipe">
         <Header/>
         <main className="container content">
           <Routes>
