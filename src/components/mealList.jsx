@@ -11,4 +11,4 @@ function MealList( {meals} ) {
     );
 }
 
-export {MealList}
+export {MealList};
