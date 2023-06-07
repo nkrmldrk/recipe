@@ -23,13 +23,16 @@ code {
     margin: 70px auto;
 }  
 .list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250, 1fr));
-    gap: 1rem;
+    display: flex;
+    max-width: 90%;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 .card {
     display: flex;
     flex-direction: column;
+    max-width: 250px;
 }
 .card-content {
     flex-grow: 1;
