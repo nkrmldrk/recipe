@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Header() {
     return (
-        <nav className="#4db6ac teal lighten-2">
+        <nav className="#ff5252 red">
             <div className="container">
                 <div className="nav-wrapper">
                     <Link to="./" className="brand-logo">
