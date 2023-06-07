@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
     return (
-        <footer className="page-footer #4db6ac teal lighten-2">
+        <footer className="page-footer #ff5252 red">
             <div className="footer-copyright">
                 <div className="container">
                     © {new Date().getFullYear()}
